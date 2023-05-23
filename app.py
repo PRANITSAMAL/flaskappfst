@@ -5,10 +5,7 @@ import base64
 import hashlib
 from Crypto import Random
 from Crypto.Cipher import AES
-import random
-
-
-
+import random 
 import sqlite3
 from sqlite3 import Error
 from flask import Flask,render_template
@@ -17,7 +14,7 @@ from flask import jsonify
 import traceback
 
 app = Flask(__name__)
-# Configuring the port
+# Configuring the port file
 @app.route("/")
 
 def frontpage():
